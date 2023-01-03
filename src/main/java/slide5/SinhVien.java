@@ -10,6 +10,7 @@ package slide5;
  * @author DELL
  */
 public class SinhVien {
+    
     private String ten ;
     private Integer tuoi ;
     private String lop ;
