@@ -11,8 +11,6 @@ public class Demo2 {
 		System.out.println(buffer.toString());
 		
 		StringBuilder Builder = new StringBuilder();
-		
-
 		char characterValue = 'K';
 		Builder.insert(0, characterValue);
 
