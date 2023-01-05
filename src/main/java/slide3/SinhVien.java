@@ -23,7 +23,8 @@ public class SinhVien {
         SinhVien sv1 = new SinhVien("Loc","Hoa", 12);
         SinhVien sv2 = new SinhVien("Lam","IT", 13);
         SinhVien sv3 = new SinhVien("Ky","TKTW", 14);
-        String string[] = {"sv1","sv2","sv3"};
+        String sv[] = {"sv1","sv2","sv3"};
+
         sv1.showSinhVien();
         sv1.DoiLop("TKTW");
     }
