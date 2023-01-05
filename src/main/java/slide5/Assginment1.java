@@ -1,14 +1,13 @@
 package slide5;
 
 import java.util.Arrays;
-import java.util.Scanner;
 
-public class Assginment {
+public class Assginment1 {
     static int [] assgiment(int [] nums,int target){
 		for (int i = 0; i < nums.length; i++){
 			for(int j = 0; j < nums.length;i++){
 				if(nums[i] + nums[j] == target){
-					return new int []{i,j};
+					return new int []{i,j,target};
 				}
 			}
 		}
