@@ -22,8 +22,7 @@ public class Studentsection {
 		
 		System.out.println("Mang sinh vien:" + Arrays.toString(svs));
 		System.out.println("Mang diem sinh vien:" + Arrays.toString(diems));
-		
-		//Arrays.sort(svs);
+		//âsasasasasasasasasasasasasas
 		for (int i = 0; i < diems.length-1; i++) {
 			for(int j = i+1; j < diems.length; j++) {
 				if(diems[i] < diems[j]) {
