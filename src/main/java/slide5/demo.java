@@ -9,16 +9,15 @@ public class demo {
     public static void main(String[] args) {
         demo demo1 = new demo();
         demo1.lop();
-        int answer = sum(5,5);
+        int answer = sum(demo1.a, 5);
         System.out.println(answer);
     }
-
 
     public void lop(){
         System.out.println(this.a);
     }
 
-    public static int sum(int x, int y){
-        return x+y;
+    public static int sum(int a, int y){
+        return a+y;
     }
 }
